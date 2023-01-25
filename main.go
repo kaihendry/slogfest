@@ -32,5 +32,5 @@ func main() {
 			slog.Duration("duration", time.Since(start)))
 
 	})
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
 }
