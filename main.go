@@ -11,8 +11,9 @@ import (
 func main() {
 	slog.SetDefault(slog.New(slog.NewJSONHandler(os.Stdout)))
 
+	url := "https://httpbin.org/delay/2"
 	var err error
-	defer gotrace.Trace("fetching", "env", "dev").Stop(&err)
-	_, err = http.Get("https://httpbin.org/delay/2")
+	defer gotrace.Trace("fetching", "url", url).Stop(err)
+	_, err = http.Get(url)
 
 }
