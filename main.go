@@ -13,7 +13,7 @@ func main() {
 
 	url := "https://httpbin.org/delay/2"
 	var err error
-	defer gotrace.Trace("fetching", "url", url).Stop(err)
+	defer gotrace.New("fetching", "url", url).Stop(err)
 	_, err = http.Get(url)
 
 }
