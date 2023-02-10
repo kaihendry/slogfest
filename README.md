@@ -1,3 +1,3 @@
-https://pkg.go.dev/golang.org/x/exp/slog
-
-https://www.youtube.com/watch?v=gd_Vyb5vEw0
+- https://pkg.go.dev/golang.org/x/exp/slog
+- https://www.youtube.com/watch?v=gd_Vyb5vEw0
+- https://github.com/kaihendry/slogd

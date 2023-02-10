@@ -1,6 +1,4 @@
-github.com/kaihendry/gotrace v0.0.0-20230203014907-d551cae0b0cd h1:uauI89xo7/Geic/qiWCxEuRwIs/qEw7pBwvMp5HGWR8=
-github.com/kaihendry/gotrace v0.0.0-20230203014907-d551cae0b0cd/go.mod h1:OKlploPnk3Kl0awAC3W9XfDPvZ5K/6HRStavyX3qGvM=
-github.com/kaihendry/gotrace v0.0.0-20230204023440-2c7a9b0edc8a h1:tbEqEBfw2S0c/I68X/XUbo3gq9IRV0aqLaS61d+W1i8=
-github.com/kaihendry/gotrace v0.0.0-20230204023440-2c7a9b0edc8a/go.mod h1:OKlploPnk3Kl0awAC3W9XfDPvZ5K/6HRStavyX3qGvM=
-golang.org/x/exp v0.0.0-20230203172020-98cc5a0785f9 h1:frX3nT9RkKybPnjyI+yvZh6ZucTZatCCEm9D47sZ2zo=
-golang.org/x/exp v0.0.0-20230203172020-98cc5a0785f9/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
+github.com/kaihendry/slogd v0.0.0-20230210122726-d277d193806a h1:P2lJv9qSVRpBEB4nBbpBsEGU1yb9QPj76AfcTBptJp8=
+github.com/kaihendry/slogd v0.0.0-20230210122726-d277d193806a/go.mod h1:98Mv+YdJn/2pDyxzy8bs+ef8Pmu1s1LorHBZiDJGlQg=
+golang.org/x/exp v0.0.0-20230206171751-46f607a40771 h1:xP7rWLUr1e1n2xkK5YB4LI0hPEy3LJC6Wk+D4pGlOJg=
+golang.org/x/exp v0.0.0-20230206171751-46f607a40771/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=

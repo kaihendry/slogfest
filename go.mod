@@ -1,7 +1,8 @@
 module github.com/kaihendry/slog-test
 
-go 1.19
+go 1.20
 
-require golang.org/x/exp v0.0.0-20230203172020-98cc5a0785f9
-
-require github.com/kaihendry/gotrace v0.0.0-20230204023440-2c7a9b0edc8a
+require (
+	github.com/kaihendry/slogd v0.0.0-20230210122726-d277d193806a
+	golang.org/x/exp v0.0.0-20230206171751-46f607a40771
+)
