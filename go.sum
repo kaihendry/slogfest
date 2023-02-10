@@ -1,4 +1,6 @@
 github.com/kaihendry/slogd v0.0.0-20230210124457-0d5f17e5248f h1:Mb8rcdoiAaMvZWrc/KXLsrRRmxhJ9Axx+HKi693e5Vo=
 github.com/kaihendry/slogd v0.0.0-20230210124457-0d5f17e5248f/go.mod h1:98Mv+YdJn/2pDyxzy8bs+ef8Pmu1s1LorHBZiDJGlQg=
+github.com/kaihendry/slogd v0.0.0-20230210131720-619cf7cb885d h1:OPK2Oy8FldP+Oz2Yob/W/7/0GtbTBANcDoQuHM094N8=
+github.com/kaihendry/slogd v0.0.0-20230210131720-619cf7cb885d/go.mod h1:98Mv+YdJn/2pDyxzy8bs+ef8Pmu1s1LorHBZiDJGlQg=
 golang.org/x/exp v0.0.0-20230206171751-46f607a40771 h1:xP7rWLUr1e1n2xkK5YB4LI0hPEy3LJC6Wk+D4pGlOJg=
 golang.org/x/exp v0.0.0-20230206171751-46f607a40771/go.mod h1:CxIveKay+FTh1D0yPZemJVgC/95VzuuOLq5Qi4xnoYc=
