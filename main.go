@@ -9,7 +9,17 @@ import (
 )
 
 func main() {
-	slog.SetDefault(slog.New(slog.NewTextHandler(os.Stdout)))
+	opts := slog.HandlerOptions{
+		ReplaceAttr: func(_ []string, a slog.Attr) slog.Attr {
+			if a.Value.Kind() == slog.KindDuration {
+				a.Value = slog.Int64Value(a.Value.Duration().Milliseconds())
+			}
+			return a
+		},
+	}
+
+	slog.SetDefault(slog.New(opts.NewJSONHandler(os.Stdout)))
+
 	good()
 	bad()
 }
